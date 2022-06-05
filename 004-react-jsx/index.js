@@ -1,6 +1,9 @@
 // JSX format
 
 ReactDOM.render(
-    <h1 className="header">This is JSX</h1>,
+    <div>
+        <h1 className="header">This is JSX</h1>
+        <p> This is a paragraph </p>
+    </div>,
     document.getElementById("root")
 );

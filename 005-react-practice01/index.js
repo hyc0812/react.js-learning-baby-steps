@@ -9,18 +9,46 @@ Create a navbar in JSX:
     - Don't worry about styling yet - it will just be plain-looking HTML for now
 */
 
-const navbar = (
+const navbar  = (
     <nav>
-        <h1> Yong's Website</h1>
+        <h1> Yongchang's website</h1>
         <ul>
             <li>Pricing</li>
             <li>About</li>
-            <li>Contract</li>
+            <li>Contact</li>
         </ul>
     </nav>
 )
 
 ReactDOM.render(
-    navbar,
-    document.getElementById("root")
+    navbar, document.getElementById("root")
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const navbar = (
+//     <nav>
+//         <h1> Yong's Website</h1>
+//         <ul>
+//             <li>Pricing</li>
+//             <li>About</li>
+//             <li>Contract</li>
+//         </ul>
+//     </nav>
+// )
+// ReactDOM.render(
+//     navbar, document.getElementById("root")
+// );
